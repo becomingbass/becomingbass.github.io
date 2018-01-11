@@ -353,7 +353,13 @@ section.is-active {
    04. Hero Section
    _____________________________________ */
 
+#hero {
+
+	background-image:url("../../assets/images/IMG_2683.JPG");
+}
+
 section.hero {
+
 	display: table;
 	margin: 0;
 	width: 100%;
