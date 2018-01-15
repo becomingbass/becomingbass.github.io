@@ -518,32 +518,6 @@ section.hero .content span {
 	font-size: 14px;
 	text-align: center;
 }
-
-
-/* _____________________________________
-
-   06. Story Area
-   _____________________________________ */
-
-
-/*.story .box {
-	min-height: 300px;
-	background: #fff;
-	padding: 40px;
-}
-.story .container .box .item h4 {
-	font-size: 24px;
-	color: #ff6e8d;
-	font-family: 'Playfair Display', serif;
-	margin-top: 25px;
-	font-weight: 600;
-}
-.story .container .box .item h5 {
-	font-weight: 600;
-}
-.story .owl-theme .owl-dots {
-	text-align: left;
-}*/
 /* _____________________________________
 
    07. Events Area
@@ -651,90 +625,6 @@ color: #555;
 .count-down .ico.black span.line {
 	background: #8a8989;
 }
-/* _____________________________________
-
-   09. Gallery Area
-   _____________________________________ */
-
-/*.gallery-masonry .item {
-	margin-bottom: 30px;
-}
-.gallery-masonry .item .box {
-	position: relative;
-	overflow: hidden;
-}
-.gallery-masonry .item .box img {
-	width: 100%;
-}
-.gallery-masonry .item .box a::after {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(255, 110, 141, 0.55);
-	content: '';
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.gallery-masonry .item .box a::before {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	content: "\f002";
-	color: #fff;
-	text-align: center;
-	font-size: 20px;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.gallery-masonry .item .box a img {
-	transform: scale(1);
-	-ms-transform: scale(1);
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.gallery-masonry .item:hover .box a::after {
-	opacity: 1;
-	visibility: visible;
-}
-.gallery-masonry .item:hover .box a::before {
-	opacity: 1;
-	visibility: visible;
-	z-index: 99;
-}
-.gallery-masonry .item:hover .box a img {
-	transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-o-transform: scale(1.2);
-}*/
 /* _____________________________________
 
    10. Pepoles Area
@@ -900,62 +790,7 @@ color: #555;
 .flickity-prev-next-button .arrow {fill:#fff;}
 /* _____________________________________
 
-   11. RSVP Area
-   _____________________________________ */
-
-.rsvp .rsvp-box {
-background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	padding: 40px;
-}
-.rsvp .rsvp-box::after {
-	display: block;
-	content: '';
-	clear: both;
-}
-.rsvp .rsvp-box .main-head {
-	color: #fff;
-}
-.rsvp .rsvp-box .ico i {
-	color: black;
-}
-.rsvp .ico.black span.line {
-	background: #fff;
-}
-#contactform {
-	margin-top: 35px;
-}
-.rsvp .rsvp-box .form-control {
-	background: none;
-	border: 1px solid #fff;
-	height: 45px;
-	color: black;
-}
-
-#evente, #guest
-{
-	color: rgba(255, 253, 253, 0.92);
-}
-#evente option, #guest option 
-{
-	color: #333;
-}
-.rsvp .rsvp-box textarea.form-control {
-	height: 135px;
-}
-.rsvp .rsvp-box .btn-rsvp {
-	background: #333;
-	color: #fff;
-	display: inline-block;
-	border: none;
-	padding: 10px 20px;
-}
-.rsvp .rsvp-box .btn-rsvp:hover {
-	background: #fff;
-	color: #333;
-}
+  
 /* _____________________________________
 
    12. Gift Area
@@ -976,39 +811,6 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
    13. Journal Area
    _____________________________________ */
 
-
-.journal .box figure {
-	overflow: hidden;
-}
-.journal .box h4 {
-	margin-top: 30px;
-	color: #2d3851;
-	font-family: 'Playfair Display', serif;
-	font-size: 20px;
-}
-.journal .box h5 {
-	color: #ff6e8d;
-	margin-top: 15px;
-}
-.journal .box img {
-	transform: scale(1);
-	-ms-transform: scale(1);
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.journal .box:hover img {
-	transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-o-transform: scale(1.2);
-}
 /* _____________________________________
 
    14. Bottom Area
